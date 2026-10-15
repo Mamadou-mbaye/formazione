@@ -1,0 +1,64 @@
+# ===== Log =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Editor / IDE =====
+.idea/
+*.iml
+.vscode/
+.vs/
+*.sublime-project
+*.sublime-workspace
+# Eclipse (Java)
+.classpath
+.project
+.settings/
+# Backup di gedit e altri editor Linux
+*~
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+.directory
+
+# ===== Segreti e configurazioni locali =====
+.env
+.env.*
+!.env.example
+# Se nel tuo team questo file e' condiviso, rimuovi la riga
+appsettings.Development.json
+secrets.json
+
+# ===== Node / JavaScript / TypeScript =====
+node_modules/
+*.tsbuildinfo
+coverage/
+.cache/
+
+# ===== Vue / Nuxt / Vite =====
+dist/
+.nuxt/
+.output/
+.vite/
+
+# ===== React / Next.js (vecchi progetti) =====
+build/
+.next/
+
+# ===== C# / .NET =====
+bin/
+obj/
+*.user
+*.suo
+TestResults/
+
+# ===== Java (Maven e Gradle) =====
+target/
+.gradle/
+*.class
+*.jar
+# Il wrapper di Gradle va invece committato
+!gradle/wrapper/gradle-wrapper.jar
